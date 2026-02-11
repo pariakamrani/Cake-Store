@@ -1,0 +1,65 @@
+[
+    {
+    "name": "کوکی شکلاتی ",
+    "apiId":"cookie",
+    "id": 1,
+    "title":"کوکی ساده سکلاتی با تکه  های شکلات",
+    "price": 40000,
+    "img":"/img/cookie1.jpg",
+    "weight":"100g"
+  },
+  {
+    "name": "کوکی پسته ای   ",
+    "apiId":"cookie",
+    "id": 2,
+    "title":" کوکی پسته ای با طعم پسته و تکه های شکلات",
+    "price": 50000,
+    "img":"/img/cookie2.jpg",
+    "weight":"100g"
+  },
+  {
+    "name": "کوکی رد ولوت ",
+    "apiId":"cookie",
+    "id": 3,
+    "title":"کوکی رد ولوت به همراه تکه ای شکلات سفید",
+    "price": 400000,
+    "img":"/img/cookie3.jpg",
+    "weight":"100g"
+  },
+  {
+    "name": "کوکی اسمارتیز   ",
+    "apiId":"cookie",
+    "id": 4,
+    "title":"کوکی اسمارتیز با تکه های رنگی اسارتیز",
+    "price": 400000,
+    "img":"/img/cookie4.jpg",
+    "weight":"100g"
+  },
+  {
+    "name": "کوکی دارک چاکلت   ",
+    "apiId":"cookie",
+    "id": 5,
+    "title":" کوکی  دارک چاکلت به همراه شکلات تلخ",
+    "price": 700000,
+    "img":"/img/cookie5.jpg",
+    "weight":"100g"
+  },
+  {
+    "name": "کوکی رزبری ",
+    "apiId":"cookie",
+    "id": 6,
+    "title":"کوکی رزبری به هراه تکه های میوه بری",
+    "price": 700000,
+    "img":"/img/cookie6.jpg",
+    "weight":"100g"
+  },
+  {
+    "name": "کوکی لوتوس  ",
+    "apiId":"cookie",
+    "id": 7,
+    "title":"کوکی لوتوس. دارای بیسکوِیت لوتوس و سس بادامزمینی",
+    "price": 300000,
+    "img":"/img/cookie7.jpg",
+    "weight":"100g"
+  }
+]
