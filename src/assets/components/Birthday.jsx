@@ -5,7 +5,7 @@ export default function Birthday({AddTocard}) {
     const[product,setProduct]=useState([])
 
      useEffect(() => {
-    fetch("/api/birthdaycake.json")
+    fetch(`${import.meta.env.BASE_URL}api/birthdaycake.json`)
       .then(res => res.json())
       .then(data => setProduct(data))
       .catch(error => console.log(error))
@@ -27,7 +27,7 @@ export default function Birthday({AddTocard}) {
                                 <div className="w-full flex justify-center">
                                     <div className="w-40 h-40 rounded-full overflow-hidden shadow-lg">
                                         <img
-                                            src={item.img}
+                                            src={`${import.meta.env.BASE_URL}img/${item.img}`}
                                             alt={item.name}
                                             className="w-full h-full object-cover"
                                         />
