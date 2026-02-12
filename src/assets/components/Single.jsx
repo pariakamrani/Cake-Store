@@ -16,16 +16,16 @@ export default function Single({ AddTocard, BasketItems }) {
 
   //  بعد توی (ای پی آی مپ) میاد همه (ای پی ای) هارو میگیره
   const apiMap = {
-    chokolateCake: "/api/chokolatecake.json",
-    birthdayCake: "/api/birthdaycake.json",
-    pie: "/api/pie.json",
-    strawberry: "/api/strawberrycake.json",
-    cupcake: "/api/cupcake.json",
-    cookie: "/api/cookie.json",
-    donut: "/api/donut.json",
-    cheesecake: "/api/cheesecake.json",
+    chokolateCake: `${import.meta.env.BASE_URL}api/chokolatecake.json`,
+    birthdayCake:`${import.meta.env.BASE_URL}api/birthdaycake.json`,
+    pie:`${import.meta.env.BASE_URL}api/pie.json`,
+    strawberry: `${import.meta.env.BASE_URL}api/strawberrycake.json`,
+    cupcake: `${import.meta.env.BASE_URL}api/cupcake.json`,
+    cookie:`${import.meta.env.BASE_URL}api/cookie.json`,
+    donut: `${import.meta.env.BASE_URL}api/donut.json`,
+    cheesecake: `${import.meta.env.BASE_URL}api/cheesecake.json`,
   }
-
+// `${import.meta.env.BASE_URL}api/cookie.json`
   useEffect(() => {
     if (!apiMap[apiId]) {
       setLoading(false)
@@ -65,7 +65,7 @@ export default function Single({ AddTocard, BasketItems }) {
           {/* تصویر */}
           <div className="flex justify-center">
             <img
-              src={product.img}
+              src={`${import.meta.env.BASE_URL}img/${product.img}`}
               alt={product.name}
               className="w-72 h-72 object-cover rounded-2xl shadow-md"
             />

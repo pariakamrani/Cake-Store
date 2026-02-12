@@ -25,7 +25,7 @@ export default function Basket({ BasketItems, increaseQty, decreaseQty }) {
                             {/* تصویر */}
                             <div className="flex justify-center">
                                 <img
-                                    src={items.img}
+                                    src={`${import.meta.env.BASE_URL}img/${items.img}`}
                                     alt={items.name}
                                     className="w-72 h-72 object-cover rounded-2xl shadow-md"
                                 />
