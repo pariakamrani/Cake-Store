@@ -6,7 +6,7 @@ export default function Cupcake({ AddTocard }) {
     
     // fetch("/api/cupcake.json")
      useEffect(() => {
-            fetch(`${import.meta.env.BASE_URL}api/cupcake.json`)
+            fetch("/api/cupcake.json")
               .then(res => res.json())
               .then(data => setProduct(data))
               .catch(error => console.log(error))

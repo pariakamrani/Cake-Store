@@ -4,7 +4,7 @@ export default function Chokolate({AddTocard }) {
   const [product, setProduct] = useState([])
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}api/chokolatecake.json`)
+    fetch("/api/chokolatecake.json")
     // 
       .then(res => res.json())
       .then(data => setProduct(data))

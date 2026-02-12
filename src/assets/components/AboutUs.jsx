@@ -81,7 +81,7 @@ const AboutUs = () => {
                     {/* Image */}
                     <div className="w-full h-full">
                         <img
-                            src="./img/c3.jpg"
+                            src="/img/c3.jpg"
                             alt="کیک تازه و دست‌ساز"
                             className="w-full h-full object-cover rounded-3xl"
                         />
