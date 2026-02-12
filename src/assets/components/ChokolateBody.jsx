@@ -46,7 +46,7 @@ export default function ChokolateBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/ch1.jpg"
+                                src="./img/ch1.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -64,7 +64,7 @@ export default function ChokolateBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/ch2.jpg"
+                                src="./img/ch2.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -81,7 +81,7 @@ export default function ChokolateBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/ch3.jpg"
+                                src="./img/ch3.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -98,7 +98,7 @@ export default function ChokolateBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/ch4.jpg"
+                                src="./img/ch4.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -115,7 +115,7 @@ export default function ChokolateBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/ch5.jpg"
+                                src="./img/ch5.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -132,7 +132,7 @@ export default function ChokolateBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/ch6.jpg"
+                                src="./img/ch6.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -149,7 +149,7 @@ export default function ChokolateBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/ch7.jpg"
+                                src="./img/ch7.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -166,7 +166,7 @@ export default function ChokolateBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/ch8.jpg"
+                                src="./img/ch8.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -183,7 +183,7 @@ export default function ChokolateBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/ch9.jpg"
+                                src="./img/ch9.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -200,7 +200,7 @@ export default function ChokolateBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40    overflow-hidden rounded-xl">
                             <img
-                                src="/img/ch10.jpg"
+                                src="./img/ch10.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />

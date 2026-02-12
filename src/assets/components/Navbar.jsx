@@ -41,7 +41,7 @@ export default function Navbar({ BasketItems }) {
 
                 {/* لوگو */}
                 <div className="w-20 sm:w-32 h-[10vh] overflow-hidden logo">
-                    <img src="/img/logo.webp" alt="Logo" className="w-full h-full" />
+                    <img src="./img/logo.webp" alt="Logo" className="w-full h-full" />
                 </div>
 
                 {/* جستجو */}

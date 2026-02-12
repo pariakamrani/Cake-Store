@@ -46,7 +46,7 @@ export default function PieBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/p1.jpg"
+                                src="./img/p1.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -64,7 +64,7 @@ export default function PieBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/p2.jpg"
+                                src="./img/p2.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -81,7 +81,7 @@ export default function PieBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/p3.jpg"
+                                src="./img/p3.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -98,7 +98,7 @@ export default function PieBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/p4.jpg"
+                                src="./img/p4.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -115,7 +115,7 @@ export default function PieBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/p5.jpg"
+                                src="./img/p5.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -133,7 +133,7 @@ export default function PieBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/p6.jpg"
+                                src="./img/p6.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -150,7 +150,7 @@ export default function PieBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/p7.jpg"
+                                src="./img/p7.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -167,7 +167,7 @@ export default function PieBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/p8.jpg"
+                                src="./img/p8.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -186,7 +186,7 @@ export default function PieBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40    overflow-hidden rounded-xl">
                             <img
-                                src="/img/p10.jpg"
+                                src="./img/p10.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -202,7 +202,7 @@ export default function PieBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/p11.jpg"
+                                src="./img/p11.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />

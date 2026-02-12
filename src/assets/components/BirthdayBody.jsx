@@ -46,7 +46,7 @@ export default function BirthdayBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/b1.jpg"
+                                src="./img/b1.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -64,7 +64,7 @@ export default function BirthdayBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/b14.jpg"
+                                src="./img/b14.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -81,7 +81,7 @@ export default function BirthdayBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/b3.jpg"
+                                src="./img/b3.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -98,7 +98,7 @@ export default function BirthdayBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/b4.jpg"
+                                src="./img/b4.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -115,7 +115,7 @@ export default function BirthdayBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/b5.jpg"
+                                src="./img/b5.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -132,7 +132,7 @@ export default function BirthdayBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/b6.jpg"
+                                src="./img/b6.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -149,7 +149,7 @@ export default function BirthdayBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/b7.jpg"
+                                src="./img/b7.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -166,7 +166,7 @@ export default function BirthdayBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/b8.jpg"
+                                src="./img/b8.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -183,7 +183,7 @@ export default function BirthdayBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/b9.jpg"
+                                src="./img/b9.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -200,7 +200,7 @@ export default function BirthdayBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/b10.jpg"
+                                src="./img/b10.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -217,7 +217,7 @@ export default function BirthdayBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/b11.jpg"
+                                src="./img/b11.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
@@ -234,7 +234,7 @@ export default function BirthdayBody() {
                         {/* image */}
                         <div className="h-52 lg:w-40   overflow-hidden rounded-xl">
                             <img
-                                src="/img/b12.jpg"
+                                src="./img/b12.jpg"
                                 className="w-full h-full object-cover"
                                 alt=""
                             />
