@@ -5,7 +5,7 @@ export default function Halfcircle() {
         <div className=" flex flex-wrap justify-center gap-x-5 gap-y-5 md:gap-x-20  p-4 mt-20 sm:mt-40">
 
             <Link to={"/Chokolate"} className="w-[40%] md:w-[20%] lg:w-[20%] xl:w-[10%] ">
-                <div className="shadow-xl/30 w-full h-[16rem] rounded-t-full overflow-hidden object-cover"><img className='w-full h-full' src={`${import.meta.env.BASE_URL}img/b10.jpg`} alt="" /></div>
+                <div className="shadow-xl/30 w-full h-[16rem] rounded-t-full overflow-hidden object-cover"><img className='w-full h-full' src={`${import.meta.env.BASE_URL}img/ch10.jpg`} alt="" /></div>
                 <p className="text-center mt-4 shadow-lg shadow-gray-400 pb-4">کیک شکلاتی</p>
             </Link>
 
