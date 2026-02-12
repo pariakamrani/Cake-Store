@@ -20,22 +20,22 @@ export default function Carousel() {
         <div className="slider-container overflow-hidden px-3 bg-white  ">
             <Slider {...settings}>
                 <div className='overflow-hidden rounded-2xl mx-5  h-80 '>
-                    <img src="/img/c1.jpg" className='w-full object-cover h-full  ' alt="" />
+                    <img src={`${import.meta.env.BASE_URL}img/c1.jpg`} className='w-full object-cover h-full  ' alt="" />
                 </div>
                 <div className='overflow-hidden rounded-2xl mx-5  h-80 '>
-                    <img src="/img/c2.jpg" className='w-full object-cover h-full  ' alt="" />
+                    <img src={`${import.meta.env.BASE_URL}img/c2.jpg`} className='w-full object-cover h-full  ' alt="" />
                 </div>
                 <div className='overflow-hidden rounded-2xl mx-5  h-80 '>
-                    <img src="/img/c3.jpg" className='w-full object-cover h-full  ' alt="" />
+                    <img src={`${import.meta.env.BASE_URL}img/c3.jpg`} className='w-full object-cover h-full  ' alt="" />
                 </div>
                 <div className='overflow-hidden rounded-2xl mx-5  h-80 '>
-                    <img src="/img/c4.jpg" className='w-full object-cover h-full  ' alt="" />
+                    <img src={`${import.meta.env.BASE_URL}img/c4.jpg`} className='w-full object-cover h-full  ' alt="" />
                 </div>
                 <div className='overflow-hidden rounded-2xl mx-5  h-80 '>
-                    <img src="/img/c5.jpg" className='w-full object-cover h-full  ' alt="" />
+                    <img src={`${import.meta.env.BASE_URL}img/c5.jpg`} className='w-full object-cover h-full  ' alt="" />
                 </div>
                 <div className='overflow-hidden rounded-2xl mx-5  h-80 '>
-                    <img src="/img/c6.jpg" className='w-full object-cover h-full  ' alt="" />
+                    <img src={`${import.meta.env.BASE_URL}img/c6.jpg`} className='w-full object-cover h-full  ' alt="" />
                 </div>
             </Slider>
         </div>
