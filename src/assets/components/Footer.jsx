@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer className="bg-pink-50 text-gray-700 mt-20">
@@ -20,10 +20,10 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold text-lg mb-4">دسترسی سریع</h3>
           <ul className="space-y-2 text-sm">
-            <li className="hover:text-pink-500 cursor-pointer">خانه</li>
-            <li className="hover:text-pink-500 cursor-pointer">سفارش کیک</li>
-            <li className="hover:text-pink-500 cursor-pointer">نمونه کارها</li>
-            <li className="hover:text-pink-500 cursor-pointer">درباره ما</li>
+            <li className="hover:text-pink-500 cursor-pointer"><Link to={"/"}>خانه</Link></li>
+            <li className="hover:text-pink-500 cursor-pointer"> <Link to={"/Guid"}>راهنمای سفارش کیک </Link></li>
+            <li className="hover:text-pink-500 cursor-pointer"><Link to={"Chokolate"}>نمونه کار ها</Link> </li>
+            <li className="hover:text-pink-500 cursor-pointer"><Link to={"/AboutUs"}>درباره ما</Link> </li>
           </ul>
         </div>
 

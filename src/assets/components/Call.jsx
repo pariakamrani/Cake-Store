@@ -1,6 +1,64 @@
-import React from "react";
-
+import React, { useState } from "react";
+// صفحه تماس با ما
 const Call = () => {
+
+  const [Namespan, setNamespan] = useState(false)
+  const [NameError, setNameError] = useState()
+  const [PhoneError, setPhoneError] = useState()
+  const [Phonespan, setPhonespan] = useState(false)
+  const [NameForButton, setNameForButton] = useState(false)
+  const [PhoneForButton, setPhoneForButton] = useState(false)
+  const Namehandler = (e) => {
+    let name = e.target.value
+    console.log(name)
+    if (name.length < 2) {
+      setNameError("نام نباید زیر ۲ حرف باشد");
+      setNamespan(true);
+      setNameForButton(false);
+      console.log( NameForButton)
+    } if(name.length>2) {
+      setNamespan(false);
+      setNameForButton(true);
+      console.log( NameForButton)
+    }
+
+  }
+
+
+  const Phonehandler = (e) => {
+    let phone = e.target.value;
+
+    if (isNaN(phone)) {
+      setPhoneError("شماره تماس باید عدد باشد");
+      setPhonespan(true);
+      setPhoneForButton(false);
+      console.log( PhoneForButton)
+      return;
+    }
+
+    if (phone.length < 11) {
+      setPhoneError("شماره تماس نباید کمتر از 11 رقم باشد");
+      setPhonespan(true);
+      setPhoneForButton(false);
+      console.log( PhoneForButton)
+      return;
+    }
+
+    if (phone.length === 11) {
+      // setPhoneError("شماره تماس نباید بیشتر از 11 رقم باشد");
+      setPhonespan(false);
+      setPhoneForButton(true);
+      console.log( PhoneForButton)
+      return;
+    }
+
+    // // فقط اگر هیچ‌کدوم از خطاها نبود
+    // setPhonespan(false);
+    // setPhoneForButton(true);
+
+    console.log(NameForButton, PhoneForButton)
+
+  }
   return (
     <section className="bg-pink-50 min-h-screen py-14 px-4" dir="rtl">
       <div className="max-w-6xl mx-auto">
@@ -76,20 +134,22 @@ const Call = () => {
             <form className="space-y-5">
               <div>
                 <label className="block text-sm text-gray-700 mb-1">نام شما</label>
-                <input
+                <input onChange={Namehandler}
                   type="text"
                   placeholder="نام و نام خانوادگی"
-                  className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-pink-300"
+                  className="mb-2 w-full rounded-xl border border-gray-200 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-pink-300"
                 />
+                {Namespan && <span className="border-2 border-red-300 rounded-2xl px-3 mt-2 block">{NameError}</span>}
               </div>
 
               <div>
                 <label className="block text-sm text-gray-700 mb-1">شماره تماس</label>
-                <input
+                <input onBlur={Phonehandler}
                   type="text"
                   placeholder="09xxxxxxxxx"
                   className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-pink-300"
                 />
+                {Phonespan && <span className="border-2 border-red-300 rounded-2xl px-3 mt-2 block">{PhoneError}</span>}
               </div>
 
               <div>
@@ -110,7 +170,7 @@ const Call = () => {
                 ></textarea>
               </div>
 
-              <button
+              <button disabled={!(NameForButton && PhoneForButton)}
                 type="submit"
                 className="w-full bg-pink-500 hover:bg-pink-600 text-white py-3 rounded-xl font-semibold transition"
               >
