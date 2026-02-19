@@ -26,6 +26,7 @@ import Cheesecake from './assets/components/Cheesecake';
 import AboutUs from './assets/components/AboutUs';
 import Call from './assets/components/Call';
 import Guid from './assets/components/Guid';
+import Scroll from './assets/components/Scroll';
 
 
 
@@ -77,6 +78,7 @@ function App() {
   return (
     <>
       <Router>
+        <Scroll/>
         <Navbar BasketItems={BasketItems}/>
         <Routes>
           <Route path="/" element={<> <FourPic /> <Halfcircle /> <BirthdayBody /> <ChokolateBody /> <Circle /> <PieBody /> </>} />

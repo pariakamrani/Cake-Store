@@ -1,0 +1,3 @@
+این همون پروژه ایه که پوش کردمش به گیت هاب . فایل اصلی توی
+react>practice>sample-forjob>sweer
+هستش
