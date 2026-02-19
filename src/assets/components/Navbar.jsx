@@ -29,7 +29,7 @@ export default function Navbar({ BasketItems }) {
         setMenuOpen(false)
     }
     return (
-        <section className="w-full NavbarTop shadow-xl fixed top-0 left-0  z-50">
+        <section className="w-full NavbarTop shadow-xl fixed top-0 left-0  z-50 ">
             {/* هدر بالا */}
             <div className="flex justify-center items-center lg:gap-x-24 md:gap-x-20 sm:gap-x-14 gap-x-5 NavbarTop h-[10vh] px-4 lg:px-20">
                 {/* دکمه سه نقطه موبایل */}
