@@ -59,7 +59,7 @@ export default function Single({ AddTocard, BasketItems }) {
   return (
     <>
 
-      <div className="max-w-4xl mx-auto px-4 py-16">
+      <div className="max-w-4xl mx-auto px-4 py-16 md:mt-50 sm:mt-40 mt-20">
         <div className="bg-white rounded-2xl shadow-lg p-8 grid md:grid-cols-2 gap-10">
 
           {/* تصویر */}

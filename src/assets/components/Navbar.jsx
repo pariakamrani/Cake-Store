@@ -31,7 +31,7 @@ export default function Navbar({ BasketItems }) {
     return (
         <section className="w-full NavbarTop shadow-xl fixed top-0 left-0  z-50 ">
             {/* هدر بالا */}
-            <div className="flex justify-center items-center lg:gap-x-24 md:gap-x-20 sm:gap-x-14 gap-x-5 NavbarTop h-[10vh] px-4 lg:px-20">
+            <div className="flex justify-center items-center lg:gap-x-24 md:gap-x-20 sm:gap-x-14 gap-x-5 NavbarTop h-[14vh] px-4 lg:px-20">
                 {/* دکمه سه نقطه موبایل */}
                 <div className="md:hidden">
                     <button onClick={toggleMenu} className="w-12 h-[5vh]  flex items-center justify-center">
@@ -40,38 +40,38 @@ export default function Navbar({ BasketItems }) {
                 </div>
 
                 {/* لوگو */}
-                <div className="w-20 sm:w-32 h-[10vh] overflow-hidden logo">
+                <div className="w-20 sm:w-32 h-[10vh] overflow-hidden logo ">
                     <img src="./img/logo.webp" alt="Logo" className="w-full h-full" />
                 </div>
 
                 {/* جستجو */}
-                <div className="flex items-center w-40 md:w-100 h-[4vh] bg-gray-100 rounded-2xl px-2">
+                <div className="flex items-center w-40 md:w-100 h-[4vh] bg-gray-100 rounded-2xl px-2 ">
                     <MagnifyingGlassIcon className="w-6 mx-4 text-black mr-2" />
                     <input type="search" placeholder="Search..." className="w-full rounded-2xl border-none outline-none" />
                 </div>
                 {/* سبد خرید */}
                 {/* آیکون سبد خرید . شرطی شده که اگر سبد خرید پر بود منار آیکونش یه دایره صورتی نمایش داده بشه */}
-                <Link className='relative' to={"/Basket"}>{BasketItems.length > 0 ? <div><ShoppingCartIcon className='w-6 text-black mx-4 mr-2' /> <span className="absolute -top-2 -right-2 w-5 h-5 bg-pink-500 text-white text-xs rounded-full flex items-center justify-center">
+                <Link className='relative ' to={"/Basket"}>{BasketItems.length > 0 ? <div><ShoppingCartIcon className='w-6 text-black mx-4 mr-2' /> <span className="absolute -top-2 -right-2 w-5 h-5 bg-pink-500 text-white text-xs rounded-full flex items-center justify-center">
                     {BasketItems.length}
                 </span></div> : <ShoppingCartIcon className="w-6 mx-4 text-black mr-2" />} </Link>
             </div>
 
             {/* منوی موبایل */}
             {menuOpen && (
-                <div className="md:hidden bg-pink-200 grid grid-cols-2 gap-x-2 gap-y-4 justify-items-center text-center fixed top-[10vh] right-0 w-70 h-auto p-4">
+                <div className="md:hidden bg-pink-200 grid grid-cols-2 gap-x-2 gap-y-4 justify-items-center text-center fixed top-23 right-0 w-70 h-auto p-4">
                     <a href="#" className="bg-pink-300 border border-pink-400 rounded-2xl  w-[100px] h-[50px] justify-items-center text-center  " onClick={closeAllMenus}>
                         <div className="  rounded-3xl w-[25px]  h-[25px] text-center  " > <BuildingLibraryIcon className="w-6  text-pink-400" /></div>
                         <p href="" className=" w-full h-1/2 text-center  " >صفحه اصلی</p>
                     </a>
 
                     {/* محصولات */}
-                    <div>
+                    <div >
                         <button onClick={toggleSubMenu} className=" rounded-2xl bg-pink-300 border border-pink-400 w-[100px] h-[50px] justify-items-center text-center   ">
                             <div className="  rounded-3xl w-[25px]  h-[25px] text-center  " > <GiftIcon className="w-6  text-pink-400 " /> </div>
-                            <p href="" className=" w-full h-1/2 text-center  " > محصولات</p>
+                            <p  className=" w-full h-1/2 text-center  " > محصولات</p>
                         </button>
                         {subMenuOpen && (
-                            <div className="md:hidden bg-pink-200 grid grid-cols-2 gap-x-2 gap-y-4 justify-items-center text-center fixed top-[10vh] right-0 w-70 h-auto p-4">
+                            <div className="md:hidden bg-pink-200 grid grid-cols-2 gap-x-2 gap-y-5  justify-items-center text-center fixed top-23 right-0 w-70 h-auto p-4">
                                 {/* منوی محصولات  */}
                                 <button className='bg-pink-300 border border-pink-400 rounded-2xl  my-1 py-2 shadow-sm' onClick={closeOption}><ArrowRightIcon className="w-6  text-pink-400" /></button>
                                 <button className='bg-pink-300 border border-pink-400 rounded-2xl  my-1 py-2 shadow-sm' onClick={closeOptionsMenue}><XMarkIcon className="w-6  text-pink-400" /></button>
@@ -103,7 +103,7 @@ export default function Navbar({ BasketItems }) {
             )}
 
             {/* منوی دسکتاپ */}
-            <div className="hidden md:flex justify-center items-center NavbarTop py-2 mt-5 pb-5">
+            <div className="hidden md:flex justify-center items-center NavbarTop py-2  pb-5">
                 <nav>
                     <ul className="flex gap-x-14">
                         <li><Link to={"/"}>صفحه اصلی</Link></li>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Guide = () => {
   return (
-    <section className="bg-pink-50 min-h-screen py-14 px-4" dir="rtl">
+    <section className="bg-pink-50 min-h-screen py-14 px-4 md:mt-50 sm:mt-40 mt-20" dir="rtl">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">

@@ -13,7 +13,7 @@ export default function Strawberry({AddTocard}) {
     return (
         <>
             <div className=''>
-                <div className="max-w-7xl mx-auto px-4 py-10">
+                <div className="max-w-7xl mx-auto px-4 py-10 md:mt-50 sm:mt-40 mt-20">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                         {product.map(item => (
                             <div

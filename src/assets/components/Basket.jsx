@@ -7,7 +7,7 @@ export default function Basket({ BasketItems, increaseQty, decreaseQty }) {
     return (
         <>
             {BasketItems?.length === 0 && <div>سبد خرید خالی است.</div>}
-            <div className=" flex  items-center justify-center mt-5">
+            <div className=" flex  items-center justify-centermd:mt-50 sm:mt-40 mt-20">
                 <div className="w-[768px] h-[2rem] rounded-4xl bg-pink-400 text-center pb-1">
                     <h2 className="text-2xl">سبد خرید</h2>
                 </div>
